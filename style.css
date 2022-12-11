@@ -141,16 +141,16 @@ section.header-wrapper {
 
 .header-bg {
     position: absolute;
-    background-image: 
+    background-image:
             linear-gradient(
                 360deg, #000000 40.78%, rgba(0, 0, 0, 0) 98.53%),
             linear-gradient(
-                360deg, rgba(0, 0, 0, 0) 79.26%, #000000 98.53%),    
+                360deg, rgba(0, 0, 0, 0) 79.26%, #000000 98.53%),
             url(src/img/header-bg2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-    transition: all 0.1s ease; 
+    transition: all 0.1s ease;
     width: 120vw;
     height: calc(120vh - 90px);
     z-index: -1;
@@ -167,9 +167,9 @@ section.header-wrapper {
 }
 
 .header-info {
-    width: 600px; 
+    width: 600px;
     padding: 10px;
-    margin-bottom: 60px;   
+    margin-bottom: 60px;
 }
 
 .sub-header-title, .header-title, .header-text {
@@ -184,8 +184,8 @@ section.header-wrapper {
     margin-bottom: 18px;
 }
 
-.photo-info {  
-    display: inline; 
+.photo-info {
+    display: inline;
     position: absolute;
     bottom: 40px;
     right: 40px;
@@ -335,7 +335,7 @@ section.photo-section {
     background-position: center center;
     width: 120%;
     height: 120%;
-    transition: all 0.1s ease;  
+    transition: all 0.1s ease;
     z-index: -1;
 }
 
@@ -381,7 +381,7 @@ section.photo-section {
     background-size: cover;
 }
 
-/* CLIENTS */ 
+/* CLIENTS */
 
 .clients {
     height: 500px;
@@ -602,16 +602,16 @@ h5.gray.footer {
         float: right;
         padding: 40px 20px;
     }
-     
+
     .hamb-line {
         background: white;
         display: block;
         height: 2px;
         position: relative;
         width: 24px;
-     
+
     }
-     
+
     .hamb-line::before,
     .hamb-line::after{
         background: white;
@@ -628,7 +628,7 @@ h5.gray.footer {
     .hamb-line::after{
         top: -8px;
     }
-     
+
     .side-menu {
         display: none;
     }
@@ -649,6 +649,12 @@ h5.gray.footer {
         padding: 30px;
         color: white;
     }
+
+    nav.menu-mobile a.button{
+        margin: 16px 30px 48px;
+        color: black;
+    }
+
     nav.menu-mobile a:hover{
         background-color: gray;
     }
@@ -677,7 +683,7 @@ h5.gray.footer {
     .what-we-do-head {
         padding-top: 6rem;
     }
-    
+
     .what-we-do-wrapper {
         width: 100vw;
     }
@@ -698,7 +704,7 @@ h5.gray.footer {
 
     .photo-section-wrapper {
         height: inherit;
-        justify-content: flex-start; 
+        justify-content: flex-start;
         padding-left: 40px;
     }
 
@@ -783,8 +789,3 @@ h5.gray.footer {
     }
 
 }
-
-
-
-
-
